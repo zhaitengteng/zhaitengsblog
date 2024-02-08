@@ -53,7 +53,7 @@ function getClass(page: number, current: number) {
     margin: 0 2rem;
     padding: 2px 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
