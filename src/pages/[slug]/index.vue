@@ -52,7 +52,7 @@ if (!article.value) {
 
 .md:deep(*) {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.9;
     font-weight: 500;
 }

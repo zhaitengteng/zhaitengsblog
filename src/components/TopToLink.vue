@@ -8,7 +8,7 @@
 
 <style scoped>
 .center{
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 30px 0;
   text-align: center;
 }
