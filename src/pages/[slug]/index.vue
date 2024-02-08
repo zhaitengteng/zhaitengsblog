@@ -18,8 +18,9 @@ if (!article.value) {
     <div class="main">
         <span class="published">{{ $formatDate(article.publishedAt) }}</span>
         <h1 class="title">{{ article.title }}</h1>
-        <span v-for="(tag, i) in article.tag" :key="tag.id" class="tag">{{ tag.name }}
-        </span>
+        <!-- <span v-for="(tag, i) in article.tag" :key="tag.id" class="tag">{{ tag.name }}
+        </span> -->
+        <TagLabel v-for="tag in article.tag" :key="tag.id" :tag="tag" class="tag"></TagLabel>
         <div class="md" v-html="article.text" />
     </div>
     <TopToLink/>
