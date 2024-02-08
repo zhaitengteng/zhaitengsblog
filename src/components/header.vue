@@ -15,12 +15,10 @@ import { config } from '../settings/siteSettings'
 <style scoped>
 .header {
   padding: 20px 4% 20px;
-  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   align-items: center;
-  z-index: 10;
 }
 
 .wrapper {

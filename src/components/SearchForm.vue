@@ -36,7 +36,6 @@ function submit() {
     
 <style scoped>
 input[type=text] {
-    font-size: 14px;
     padding: 4px 8px;
     box-sizing: border-box;
     border-radius: 10px;

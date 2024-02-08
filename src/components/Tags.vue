@@ -13,7 +13,7 @@ const { tags, selectedTagId } = defineProps<Props>();
 <template>
   <div class="wrapper">
     <h1 class="title">タグ</h1>
-        <NuxtLink v-for="tag in tags" :key="tag.id" :to="`/tags/${tag.id}/page/1`" class="tag-badge"> 
+        <NuxtLink v-for="tag in tags" :key="tag.id" :to="`/tags/${tag.id}/page/1`" class="tag"> 
           {{ tag.name }}
         </NuxtLink>
   </div>
@@ -24,20 +24,6 @@ const { tags, selectedTagId } = defineProps<Props>();
   padding: 20px 0;
 }
 
-.tag-badge {
-    display: inline-block;
-    border-radius: 4px;
-    text-align: center;
-    border: 1px solid #888;;
-    padding: 4px 8px;
-    cursor: pointer;
-    margin-right: 1rem;
-    letter-spacing: 1.5px;
-}
-
-.tag-badge:hover{
-        opacity: .6;
-    }
 .list {
     border-bottom: 1px solid #eee;
     list-style-type: none;
@@ -48,7 +34,7 @@ const { tags, selectedTagId } = defineProps<Props>();
     display: block;
     padding: 10px;
     color: #888;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .active {

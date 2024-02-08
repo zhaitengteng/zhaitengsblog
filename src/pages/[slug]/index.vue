@@ -54,7 +54,6 @@ if (!article.value) {
     margin-top: 0;
     margin-bottom: 2rem;
     line-height: 1.9;
-    font-size: 1.6rem;
     font-weight: 500;
 }
 
