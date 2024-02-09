@@ -1,8 +1,11 @@
 <!-- src/components/Footer.vue -->
+<script setup lang="ts">
+import { config } from '../settings/siteSettings'
+</script>
 <template>
     <footer class="footer">
         <div class="wrapper">
-            <p class="text"><small>© 2024- zhaiteng's blog</small></p>
+            <p class="text"><small>© 2024- {{ config.siteName }}</small></p>
         </div>
     </footer>
 </template>

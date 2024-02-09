@@ -1,6 +1,6 @@
 export const BLOG_PER_PAGE = 5
 export const config = {
-  siteName: "zhaiteng's blog",
+  siteName: "koishi diario",
   siteUrl: "",
   siteDescription: "",
   postListField: 'id,title,description,tag,publishedAt,revisedAt',

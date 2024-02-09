@@ -36,6 +36,7 @@ const numPages = Math.ceil(posts.value.totalCount / limit)
             </section>
             <aside class="aside">
                 <!-- キーワード検索、タグ一覧 -->
+                <About />
                 <Tags :tags="tags.contents" :selectedTagId="tagId"/>
                 <SearchForm />
             </aside>
