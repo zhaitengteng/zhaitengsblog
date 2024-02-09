@@ -10,4 +10,10 @@ export default defineNuxtConfig({
     serviceDomain: SERVICE_DOMAIN
   },
   css: ['~/assets/css/reset.css','~/assets/css/style.css',],
+  app:{
+    head:{
+      charset:'utf-8',
+      viewport:'width=device-width, initial-scale=1',
+    }
+  }
 })
